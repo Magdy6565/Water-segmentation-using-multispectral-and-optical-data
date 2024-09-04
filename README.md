@@ -1,6 +1,5 @@
 # Water-segmentation-using-multispectral-and-optical-data
 
-# U-Net Segmentation Project
 # Overview
 This project uses a U-Net model for image segmentation tasks. The model is trained on a dataset of multi-channel TIFF images and corresponding binary masks. Data augmentation techniques are employed to enhance the dataset and improve model performance.
 
@@ -16,8 +15,9 @@ tifffile
 osgeo (GDAL)
 scikit-learn
 
-
-
+# Data  
+Input Images Shape were 306 images each with (128,128,12)
+while Labels shape were (128,128)
 
 # Data Preparation
 Dataset: Place your dataset of TIFF images and corresponding masks in a directory.
